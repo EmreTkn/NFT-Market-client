@@ -1,0 +1,7 @@
+<div *ngIf="metaDataList$|async">
+  <div *ngFor="let item of metaDataList$|async">
+    {{item.price}}
+  </div>
+</div>
+
+
